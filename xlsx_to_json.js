@@ -1,5 +1,5 @@
-const xlsxName = '/Users/hitomi/Desktop/ビアコレ/mapmesh/13tokyo1km.xlsx'; //ここにbook名を代入
-const outPutFileName = '/Users/hitomi/Desktop/ビアコレ/mapmesh/tokyo.json';
+const xlsxName = ''; //ここにbook名を代入
+const outPutFileName = '';
 
 let XLSX = require('xlsx');
 let workbook = XLSX.readFile(xlsxName, { cellDates: true });
